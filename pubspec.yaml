@@ -1,0 +1,48 @@
+name: dvs_news
+description: DVS News - Your Daily News Companion
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # HTTP calls
+  http: ^1.2.1
+
+  # Image caching (news images)
+  cached_network_image: ^3.3.1
+
+  # Internet connection check
+  connectivity_plus: ^6.0.3
+
+  # Save theme / font size preference
+  shared_preferences: ^2.2.3
+
+  # Clean readable font
+  google_fonts: ^6.2.1
+
+  # Skeleton loading effect
+  shimmer: ^3.0.0
+
+  # In-app WebView for Android/iOS (uses system WebView — no app size increase)
+  webview_flutter: ^4.9.0
+
+  # Fallback for Flutter Web (WebView not supported on web)
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
